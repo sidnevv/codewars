@@ -16,7 +16,7 @@ You are NOT allowed to use any temporary arrays or objects. You are also not all
 
 Solution:
 
-```
+```js
 removeZeros = a => {
     const start = [], end = []
     for (const e of a) e === 0 || e === '0' ? end[end.length] = e : start[start.length] = e
