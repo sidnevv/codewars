@@ -30,7 +30,7 @@ For maps without "0" and "1" return 0 as there is no population.
 
 Solution:  
 
-```
+```js
 const infected = s => {
     const continents = s.split('X').filter(Boolean)
     const total = continents.join('').length
